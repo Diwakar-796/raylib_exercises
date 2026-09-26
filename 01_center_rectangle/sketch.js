@@ -1,6 +1,6 @@
 const r = require("raylib");
 
-const geometry = require("./math");
+const geometry = require("./../math");
 
 const screenWidth = 700;
 const screenHeight = 500;
