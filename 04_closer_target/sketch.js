@@ -32,8 +32,8 @@ function draw() {
     r.DrawCircle(target1PosX, target1PosY, circleRadius, r.RED);
     r.DrawCircle(target2PosX, target2PosY, circleRadius, r.RED);
 
-    const distance1 = geometry.calculateDistance(sourcePosX, sourcePosY, target1PosX, target1PosY);
-    const distance2 = geometry.calculateDistance(sourcePosX, sourcePosY, target2PosX, target2PosY);
+    const distance1 = geometry.calcDistance(sourcePosX, sourcePosY, target1PosX, target1PosY);
+    const distance2 = geometry.calcDistance(sourcePosX, sourcePosY, target2PosX, target2PosY);
 
     if (distance1 < distance2) {
         r.DrawLine(sourcePosX, sourcePosY, target1PosX, target1PosY, r.BLACK);
